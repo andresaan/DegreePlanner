@@ -1,0 +1,4 @@
+C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DAL\DAL.csproj;neutral
+C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\Data\Data.csproj;neutral
+C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\Data\Data.csproj;neutral
+C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\DegreePlanner.csproj;x64

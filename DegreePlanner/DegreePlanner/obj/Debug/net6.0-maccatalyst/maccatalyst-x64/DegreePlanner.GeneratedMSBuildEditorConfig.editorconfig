@@ -1,0 +1,47 @@
+is_global = true
+build_property.TargetFramework = net6.0-maccatalyst
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = 
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = false
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = DegreePlanner
+build_property.ProjectDir = C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/AppShell.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.AppShell.xaml
+build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
+build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/AddTermPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.AddTermPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddTermPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddTermPopup.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/DegreePlanView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.DegreePlanView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DegreePlanView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DegreePlanView.xaml

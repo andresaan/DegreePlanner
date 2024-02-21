@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<mct:Popup xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:mct="clr-namespace:CommunityToolkit.Maui.Views;assembly=CommunityToolkit.Maui"
+             x:Class="DegreePlanner.View.AddTermPopup"
+             xmlns:ViewModel="clr-namespace:DegreePlanner.ViewModel"
+             x:DataType="ViewModel:DegreePlanViewModel">
+
+    <VerticalStackLayout>
+
+        <Label Text="Add Term" FontSize="26" FontAttributes="Bold" Margin="20" VerticalOptions="Center" HorizontalOptions="Center" />
+        
+        <HorizontalStackLayout>
+            <Label Text="Term Name"/>
+            <Entry Text="{Binding TermName}" />
+        </HorizontalStackLayout>
+        
+        <HorizontalStackLayout>
+            <Label Text="Start Date"/>
+            <DatePicker x:Name="StartDatePicker" Date="{Binding Start}" />
+        </HorizontalStackLayout>
+
+        <HorizontalStackLayout>
+            <Label Text="End Date"/>
+            <DatePicker x:Name="EndDatePicker" Date="{Binding End}" />
+        </HorizontalStackLayout>
+
+        <Button Text="Save" Command="{Binding AddTermCommand}"/>
+
+    </VerticalStackLayout>
+</mct:Popup>
