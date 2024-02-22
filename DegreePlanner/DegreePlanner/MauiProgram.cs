@@ -1,7 +1,8 @@
 ﻿using DegreePlanner.View;
 using DegreePlanner.ViewModel;
-using DAL;
 using CommunityToolkit.Maui;
+using ApplicationCore.Interfaces;
+using ApplicationCore.Services;
 
 namespace DegreePlanner
 {
@@ -22,7 +23,14 @@ namespace DegreePlanner
             builder.Services.AddSingleton<DegreePlanView>();
             builder.Services.AddTransient<DegreePlanViewModel>();
 
+            builder.Services.AddTransient<AddEditCourseView>();
+            builder.Services.AddTransient<AddEditCourseViewModel>();
+
+            builder.Services.AddTransient<ITermService, TermService>();
+
             builder.Services.AddTransient<AddTermPopup>();
+
+
 
             return builder.Build();
         }

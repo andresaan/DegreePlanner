@@ -19,4 +19,11 @@ public partial class DegreePlanView : ContentPage
     {
 		this.ShowPopup(new AddTermPopup(_viewModel));
     }
+
+    protected override void OnAppearing()
+    {
+        base.OnAppearing();
+
+        _viewModel.LoadTerms();
+    }
 }

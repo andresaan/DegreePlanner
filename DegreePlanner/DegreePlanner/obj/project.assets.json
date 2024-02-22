@@ -2076,18 +2076,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -4179,18 +4178,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -6282,18 +6280,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -8385,18 +8382,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -10488,18 +10484,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -12591,18 +12586,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -14694,18 +14688,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -16797,18 +16790,17 @@
           "buildTransitive/net6.0-android31.0/Xamarin.KotlinX.Coroutines.Core.Jvm.targets": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -17217,19 +17209,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -17588,19 +17578,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -17959,19 +17947,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -18330,19 +18316,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -18701,19 +18685,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -19069,19 +19051,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -19437,19 +19417,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -19808,19 +19786,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -20230,19 +20206,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -20601,19 +20575,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -20972,19 +20944,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -21343,19 +21313,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -21714,19 +21682,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -22082,19 +22048,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -22450,19 +22414,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -22821,19 +22783,17 @@
           }
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "System.Runtime.InteropServices.NFloat.Internal": "6.0.1",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -23364,18 +23324,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -23826,18 +23785,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -24288,18 +24246,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -24750,18 +24707,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -25212,18 +25168,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -25671,18 +25626,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -26130,18 +26084,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -26598,18 +26551,17 @@
           "buildTransitive/netcoreapp3.1/_._": {}
         }
       },
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         },
         "runtime": {
-          "bin/placeholder/DAL.dll": {}
+          "bin/placeholder/ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -29868,10 +29820,10 @@
         "xamarin.kotlinx.coroutines.core.jvm.nuspec"
       ]
     },
-    "DAL/1.0.0": {
+    "ApplicationCore/1.0.0": {
       "type": "project",
-      "path": "../DAL/DAL.csproj",
-      "msbuildProject": "../DAL/DAL.csproj"
+      "path": "../ApplicationCore/ApplicationCore.csproj",
+      "msbuildProject": "../ApplicationCore/ApplicationCore.csproj"
     },
     "Data/1.0.0": {
       "type": "project",
@@ -29881,18 +29833,18 @@
   },
   "projectFileDependencyGroups": {
     "net6.0-android31.0": [
+      "ApplicationCore >= 1.0.0",
       "CommunityToolkit.Maui >= 2.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
-      "DAL >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-ios16.1": [
+      "ApplicationCore >= 1.0.0",
       "CommunityToolkit.Maui >= 2.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
-      "DAL >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
@@ -29900,9 +29852,9 @@
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-maccatalyst16.1": [
+      "ApplicationCore >= 1.0.0",
       "CommunityToolkit.Maui >= 2.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
-      "DAL >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
@@ -29910,9 +29862,9 @@
       "sqlite-net-pcl >= 1.8.116"
     ],
     "net6.0-windows10.0.19041": [
+      "ApplicationCore >= 1.0.0",
       "CommunityToolkit.Maui >= 2.0.0",
       "CommunityToolkit.Mvvm >= 8.2.2",
-      "DAL >= 1.0.0",
       "Data >= 1.0.0",
       "Microsoft.Maui.Dependencies >= 6.0.552",
       "Microsoft.Maui.Extensions >= 6.0.552",
@@ -29957,8 +29909,8 @@
         "net6.0-android31.0": {
           "targetAlias": "net6.0-android",
           "projectReferences": {
-            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj"
+            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj"
             },
             "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj"
@@ -29968,8 +29920,8 @@
         "net6.0-ios16.1": {
           "targetAlias": "net6.0-ios",
           "projectReferences": {
-            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj"
+            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj"
             },
             "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj"
@@ -29979,8 +29931,8 @@
         "net6.0-maccatalyst16.1": {
           "targetAlias": "net6.0-maccatalyst",
           "projectReferences": {
-            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj"
+            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj"
             },
             "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj"
@@ -29990,8 +29942,8 @@
         "net6.0-windows10.0.19041": {
           "targetAlias": "net6.0-windows10.0.19041.0",
           "projectReferences": {
-            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj": {
-              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DAL\\DAL.csproj"
+            "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj": {
+              "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj"
             },
             "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {
               "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj"

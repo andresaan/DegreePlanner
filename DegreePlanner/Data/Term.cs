@@ -4,11 +4,11 @@ using Data;
 namespace Data
 {
     [Table("Term")]
-    public class Term
+    public class Term : BaseItem
     {
         [PrimaryKey, AutoIncrement]
         [Column("term_id")]
-        public int TermId { get; set; }
+        public int TermId { get => ObjectId; set => ObjectId = value; }
 
         [Column("name")]
         public string Name { get; set; }

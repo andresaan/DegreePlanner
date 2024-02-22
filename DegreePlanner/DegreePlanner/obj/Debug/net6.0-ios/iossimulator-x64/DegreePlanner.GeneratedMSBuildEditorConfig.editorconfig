@@ -34,6 +34,18 @@ build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.Resources.St
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/AddAssessmentPopup.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.AddAssessmentPopup.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddAssessmentPopup.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddAssessmentPopup.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/AddEditCourseView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.AddEditCourseView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\AddEditCourseView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\AddEditCourseView.xaml
+
 [C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/AddTermPopup.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.AddTermPopup.xaml

@@ -9,9 +9,9 @@
     ".NETCoreApp,Version=v6.0/win10-x64": {
       "DegreePlanner/1.0": {
         "dependencies": {
+          "ApplicationCore": "1.0.0",
           "CommunityToolkit.Maui": "2.0.0",
           "CommunityToolkit.Mvvm": "8.2.2",
-          "DAL": "1.0.0",
           "Data": "1.0.0",
           "Microsoft.Maui.Dependencies": "6.0.552",
           "Microsoft.Maui.Extensions": "6.0.552",
@@ -1198,13 +1198,12 @@
       },
       "System.Memory/4.5.3": {},
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "DAL/1.0.0": {
+      "ApplicationCore/1.0.0": {
         "dependencies": {
-          "Data": "1.0.0",
-          "sqlite-net-pcl": "1.8.116"
+          "Data": "1.0.0"
         },
         "runtime": {
-          "DAL.dll": {}
+          "ApplicationCore.dll": {}
         }
       },
       "Data/1.0.0": {
@@ -1430,7 +1429,7 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "DAL/1.0.0": {
+    "ApplicationCore/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -55,7 +55,7 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <ProjectReference Include="..\DAL\DAL.csproj" />
+	  <ProjectReference Include="..\ApplicationCore\ApplicationCore.csproj" />
 	  <ProjectReference Include="..\Data\Data.csproj" />
 	</ItemGroup>
 
@@ -66,6 +66,12 @@
 	</ItemGroup>
 
 	<ItemGroup>
+	  <MauiXaml Update="View\AddAssessmentPopup.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AddEditCourseView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
 	  <MauiXaml Update="View\AddTermPopup.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>

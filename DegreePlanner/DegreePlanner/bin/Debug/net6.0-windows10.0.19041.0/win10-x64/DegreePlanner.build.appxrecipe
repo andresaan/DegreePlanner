@@ -34,9 +34,6 @@
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\DegreePlanner.dll">
       <PackagePath>DegreePlanner.dll</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DAL\bin\Debug\net6.0-windows10.0.19041.0\DAL.dll">
-      <PackagePath>DAL.dll</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\Data\bin\Debug\net6.0-windows10.0.19041.0\Data.dll">
       <PackagePath>Data.dll</PackagePath>
     </AppxPackagedFile>
@@ -828,6 +825,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\.nuget\packages\sqlitepclraw.lib.e_sqlite3\2.0.4\runtimes\win-x64\native\e_sqlite3.dll">
       <PackagePath>e_sqlite3.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll">
+      <PackagePath>ApplicationCore.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\DegreePlanner.deps.json">
       <PackagePath>DegreePlanner.deps.json</PackagePath>
