@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DegreePlanner</name>
+    </assembly>
+    <members>
+        <member name="T:DegreePlanner.ViewModel.AddEditCourseViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.Course">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.course"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.CourseInstructor">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.courseInstructor"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.NewAssessment">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.newAssessment"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.NotificationTitle">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.notificationTitle"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.NotificationDescription">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.notificationDescription"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.NotificationDate">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.notificationDate"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.Assessments">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.AddEditCourseViewModel.assessments"/>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.AddEditCourseViewModel.addAssessmentCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.AddEditCourseViewModel.AddAssessmentCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.AddAssessmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.AddEditCourseViewModel.AddAssessment"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.AddEditCourseViewModel.deleteAssessmentCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteAssessmentCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteAssessmentCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteAssessment(Data.Assessment)"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.AddEditCourseViewModel.deleteCourseCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteCourseCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteCourseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.AddEditCourseViewModel.DeleteCourse(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.AddEditCourseViewModel.setReminderCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.AddEditCourseViewModel.SetReminderCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.SetReminderCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.AddEditCourseViewModel.SetReminder"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.AddEditCourseViewModel.shareNotesCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.AddEditCourseViewModel.ShareNotesCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.AddEditCourseViewModel.ShareNotesCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.AddEditCourseViewModel.ShareNotes"/>.</summary>
+        </member>
+        <member name="T:DegreePlanner.ViewModel.DegreePlanViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.Terms">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.DegreePlanViewModel.terms"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.TermName">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.DegreePlanViewModel.termName"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.Start">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.DegreePlanViewModel.start"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.End">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.DegreePlanViewModel.end"/>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.DegreePlanViewModel.addTermCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.DegreePlanViewModel.AddTermCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.AddTermCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.DegreePlanViewModel.AddTerm"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.DegreePlanViewModel.editTermCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.DegreePlanViewModel.EditTermCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.DegreePlanViewModel.EditTermCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.DegreePlanViewModel.EditTerm(Data.Term)"/>.</summary>
+        </member>
+        <member name="T:DegreePlanner.ViewModel.EditTermViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.Term">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.EditTermViewModel.term"/>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.Courses">
+            <inheritdoc cref="F:DegreePlanner.ViewModel.EditTermViewModel.courses"/>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.EditTermViewModel.editTermCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.EditTermViewModel.EditTermCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.EditTermCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.EditTermViewModel.EditTerm(Data.Term)"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.EditTermViewModel.deleteTermCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.EditTermViewModel.DeleteTermCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.DeleteTermCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.EditTermViewModel.DeleteTerm(Data.Term)"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.EditTermViewModel.addCourseCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.EditTermViewModel.AddCourseCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.AddCourseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.EditTermViewModel.AddCourse(System.Int32)"/>.</summary>
+        </member>
+        <member name="F:DegreePlanner.ViewModel.EditTermViewModel.editCourseCommand">
+            <summary>The backing field for <see cref="P:DegreePlanner.ViewModel.EditTermViewModel.EditCourseCommand"/>.</summary>
+        </member>
+        <member name="P:DegreePlanner.ViewModel.EditTermViewModel.EditCourseCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand`1"/> instance wrapping <see cref="M:DegreePlanner.ViewModel.EditTermViewModel.EditCourse(Data.Course)"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Course">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Course" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CourseInstructor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CourseInstructor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NewAssessment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NewAssessment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NotificationTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NotificationTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NotificationDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NotificationDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.NotificationDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "NotificationDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Assessments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Assessments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Terms">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Terms" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.TermName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "TermName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Start">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Start" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.End">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "End" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Term">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Term" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Courses">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Courses" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Course">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Course" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CourseInstructor">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CourseInstructor" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NewAssessment">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NewAssessment" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NotificationTitle">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NotificationTitle" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NotificationDescription">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NotificationDescription" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.NotificationDate">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "NotificationDate" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Assessments">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Assessments" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Terms">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Terms" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.TermName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "TermName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Start">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Start" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.End">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "End" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Term">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Term" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Courses">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Courses" generated properties.</summary>
+        </member>
+    </members>
+</doc>

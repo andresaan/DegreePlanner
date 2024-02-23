@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {}
+    "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\Data\\Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj": {
+    "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\Data\\Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj",
+        "projectUniqueName": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\Data\\Data.csproj",
         "projectName": "Data",
-        "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\Data.csproj",
+        "projectPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\Data\\Data.csproj",
         "packagesPath": "C:\\Users\\aasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\Data\\obj\\",
+        "outputPath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\Data\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

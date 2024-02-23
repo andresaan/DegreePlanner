@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DegreePlanner.View.AddEditCourseView"
-             Title="AddEditCourseView"
+             Title="Course"
              xmlns:Assessment="clr-namespace:Data;assembly=Data"
              xmlns:ViewModel="clr-namespace:DegreePlanner.ViewModel"
              x:DataType="ViewModel:AddEditCourseViewModel"
@@ -11,28 +11,28 @@
     <ScrollView>
         <VerticalStackLayout>
 
-            <Label x:Name="PageTitle" Text="Add Course" FontSize="26" FontAttributes="Bold" Margin="20" VerticalOptions="Center" HorizontalOptions="Center" />
-
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
                     <Label Text="Course Information" FontSize="18" FontAttributes="Bold"/>
 
-                    <Grid ColumnDefinitions=".25*,.5*,.15*,.1*" Margin="10">
-                        <Label Grid.Column="0" Text="Course Name" HorizontalOptions="Start" VerticalOptions="Center"/>
-                        <Entry Grid.Column="1" Text="{Binding Course.Name}" HorizontalOptions="Fill" VerticalOptions="Center"/>
-                        <Label Grid.Column="2" Text="Total CUs" HorizontalOptions="Center" VerticalOptions="Center"/>
-                        <Entry Grid.Column="3" Text="{Binding Course.TotalCus}" HorizontalOptions="Fill" VerticalOptions="Center"/>
+                    <Grid ColumnDefinitions=".25*,.75*" Margin="10">
+                        <Label Grid.Column="0" Text="Course Name" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding Course.Name}" HorizontalOptions="Fill" VerticalOptions="Center" BackgroundColor="Beige" FontSize="12"/>
                     </Grid>
 
 
-                    <Grid ColumnDefinitions=".10*,.22*,.10*,.22*,.16*,.16*" Margin="10">
-                        <Label Grid.Column="0"  Text="Start Date" VerticalOptions="Center"/>
-                        <DatePicker Grid.Column="1" x:Name="StartDatePicker" Date="{Binding Course.Start}" HorizontalOptions="Fill" VerticalOptions="Center"/>
-                        <Label Grid.Column="2" Text="End Date" VerticalOptions="Center"/>
-                        <DatePicker Grid.Column="3" x:Name="EndDatePicker" Date="{Binding Course.End}" HorizontalOptions="CenterAndExpand"/>
-                        <Label Grid.Column="4" Text="Status" HorizontalOptions="Center" VerticalOptions="Center"/>
-                        <Picker Grid.Column="5" SelectedItem="{Binding Course.Status}">
+                    <Grid ColumnDefinitions=".25*,.25*,.25*,.25*" Margin="10">
+                        <Label Grid.Column="0"  Text="Start Date" VerticalOptions="Center" FontSize="12"/>
+                        <DatePicker Grid.Column="1" x:Name="StartDatePicker" Date="{Binding Course.Start}" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="12"/>
+                        <Label Grid.Column="2" Text="End Date" VerticalOptions="Center" FontSize="12"/>
+                        <DatePicker Grid.Column="3" x:Name="EndDatePicker" Date="{Binding Course.End}" HorizontalOptions="CenterAndExpand" FontSize="12"/>
+                        
+                    </Grid>
+
+                    <Grid ColumnDefinitions=".5*,.5*">
+                        <Label Grid.Column="0" Text="Status" HorizontalOptions="Center" VerticalOptions="Center" FontSize="12"/>
+                        <Picker Grid.Column="1" SelectedItem="{Binding Course.Status}" BackgroundColor="Beige" FontSize="12">
                             <Picker.ItemsSource>
                                 <x:Array Type="{x:Type x:String}">
                                     <x:String>Plan to Take</x:String>
@@ -43,54 +43,55 @@
                             </Picker.ItemsSource>
                         </Picker>
                     </Grid>
+                    
                 </VerticalStackLayout>
             </Border>
 
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
                     <Label Text="Course Instructor Information" FontSize="18" FontAttributes="Bold"/>
 
                     <Grid ColumnDefinitions=".25*,.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Name" HorizontalOptions="Start" VerticalOptions="Center"/>
-                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.InstructorName}" HorizontalOptions="Fill" VerticalOptions="Center"/>
+                        <Label Grid.Column="0" Text="Name" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.InstructorName}" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                     <Grid ColumnDefinitions=".25*,.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Phone" HorizontalOptions="Start" VerticalOptions="Center"/>
-                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.Phone}" HorizontalOptions="Fill" VerticalOptions="Center"/>
+                        <Label Grid.Column="0" Text="Phone" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.Phone}" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                     <Grid ColumnDefinitions=".25*,.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Email" HorizontalOptions="Start" VerticalOptions="Center"/>
-                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.Email}" HorizontalOptions="Fill" VerticalOptions="Center"/>
+                        <Label Grid.Column="0" Text="Email" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding CourseInstructor.Email}" HorizontalOptions="Fill" VerticalOptions="Center" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                 </VerticalStackLayout>
             </Border>
 
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
                     <Label Text="Course Notes" FontSize="18" FontAttributes="Bold"/>
 
-                    <Entry Text="{Binding Course.Notes}" Placeholder="Optional"/>
+                    <Entry Text="{Binding Course.Notes}" Placeholder="Optional" FontSize="12"/>
 
                     <Button Text="Share" Command="{Binding ShareNotesCommand}"/>
 
                 </VerticalStackLayout>
             </Border>
 
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
                     <Label Text="Assessments" FontSize="18" FontAttributes="Bold"/>
 
                     <Grid ColumnDefinitions=".15*,.45*,.15*,.15*, .1*" Margin="10">
-                        <Label Grid.Column="0" Text="Type" HorizontalOptions="Start"/>
-                        <Label Grid.Column="1" Text="Name" HorizontalOptions="Start"/>
-                        <Label Grid.Column="2" Text="Start" HorizontalOptions="Center"/>
-                        <Label Grid.Column="3" Text="End" HorizontalOptions="Center"/>
+                        <Label Grid.Column="0" Text="Type" HorizontalOptions="Start" FontSize="12"/>
+                        <Label Grid.Column="1" Text="Name" HorizontalOptions="Start" FontSize="12"/>
+                        <Label Grid.Column="2" Text="Start" HorizontalOptions="Center" FontSize="12"/>
+                        <Label Grid.Column="3" Text="End" HorizontalOptions="Center" FontSize="12"/>
                     </Grid>
 
                     <CollectionView ItemsSource="{Binding Assessments}">
@@ -114,24 +115,24 @@
                 </VerticalStackLayout>
             </Border>
 
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
                     <Label Text="Reminders" FontSize="18" FontAttributes="Bold"/>
 
                     <Grid ColumnDefinitions="0.25*,0.75*" Margin="10">
-                        <Label Grid.Column="1" Text="Title"/>
-                        <Entry Text="{Binding NotificationTitle}"/>
+                        <Label Grid.Column="0" Text="Title" HorizontalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding NotificationTitle}" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                     <Grid ColumnDefinitions="0.25*,0.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Description"/>
-                        <Entry Grid.Column="1" Text="{Binding NotificationDescription}"/>
+                        <Label Grid.Column="0" Text="Description" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding NotificationDescription}" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                     <Grid ColumnDefinitions="0.25*,0.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Date"/>
-                        <DatePicker Grid.Column="1" x:Name="ReminderDatePicker" Date="{Binding NotificationDate}" HorizontalOptions="CenterAndExpand"/>
+                        <Label Grid.Column="0" Text="Date" FontSize="12"/>
+                        <DatePicker Grid.Column="1" x:Name="ReminderDatePicker" Date="{Binding NotificationDate}" HorizontalOptions="CenterAndExpand" FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
                     <Button Text="Set Reminder" Command="{Binding SetReminderCommand}"/>

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "cHwre6xj3Vhvlxg7z+G/rI/4wGJVKWJtjQpEps/MEQw7wZGtp2sLhggt7ciu4brVZtUXpHQd7mp/sJ77jLLBig==",
+  "dgSpecHash": "3pOogKV8Aicesy3Qk+aAjRh6CGoc8JAV6r30ka+5OyHhL76uzytZFDsniQa9eoQFqJuAIlzYb8szl0NsdHNOAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj",
+  "projectFilePath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aasan\\.nuget\\packages\\plugin.localnotification\\10.1.8\\plugin.localnotification.10.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
-    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
-    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.8\\sqlitepclraw.provider.dynamic_cdecl.2.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512"
   ],
   "logs": []

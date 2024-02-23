@@ -11,7 +11,7 @@ namespace ApplicationCore.DAL
             {
                 Name = "Spring Term",
                 Start = DateTime.Now,
-                End = DateTime.Now,
+                End = DateTime.Now.AddDays(2),
                 TotalCus = 10
             }
         };
@@ -24,7 +24,7 @@ namespace ApplicationCore.DAL
                 InstructorId = 1,
                 Name = "First Course",
                 Start = DateTime.Now,
-                End = DateTime.Now,
+                End = DateTime.Now.AddDays(2),
                 TotalCus = 8,
                 Status = "Not Started"
             }
@@ -38,7 +38,15 @@ namespace ApplicationCore.DAL
                 Name = "Mobile App",
                 Type = "PA",
                 Start = DateTime.Now,
-                End = DateTime.Now
+                End = DateTime.Now.AddDays(2)
+            },
+            new Assessment()
+            {
+                CourseId = 1,
+                Name = "Second Assessment",
+                Type = "OA",
+                Start = DateTime.Now,
+                End = DateTime.Now.AddDays(2)
             }
         };
 
@@ -46,9 +54,9 @@ namespace ApplicationCore.DAL
         {
             new CourseInstructor()
             {
-                InstructorName = "Fake Name",
-                Phone = "555-555-5555",
-                Email = "test@test.com"
+                InstructorName = "Anika Patel",
+                Phone = "555-123-4567",
+                Email = "anika.patel@strimeuniversity.edu"
             }
         };
     }

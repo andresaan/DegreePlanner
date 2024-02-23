@@ -9,7 +9,9 @@
       "ApplicationCore/1.0.0": {
         "dependencies": {
           "Data": "1.0.0",
-          "Plugin.LocalNotification": "10.1.8"
+          "Plugin.LocalNotification": "10.1.8",
+          "SQLitePCLRaw.provider.dynamic_cdecl": "2.1.8",
+          "sqlite-net-pcl": "1.8.116"
         },
         "runtime": {
           "ApplicationCore.dll": {}
@@ -36,9 +38,9 @@
       },
       "SQLitePCLRaw.bundle_green/2.0.4": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4",
+          "SQLitePCLRaw.core": "2.1.8",
           "SQLitePCLRaw.lib.e_sqlite3": "2.0.4",
-          "SQLitePCLRaw.provider.dynamic_cdecl": "2.0.4"
+          "SQLitePCLRaw.provider.dynamic_cdecl": "2.1.8"
         },
         "runtime": {
           "lib/netcoreapp3.1/SQLitePCLRaw.batteries_v2.dll": {
@@ -51,14 +53,14 @@
           }
         }
       },
-      "SQLitePCLRaw.core/2.0.4": {
+      "SQLitePCLRaw.core/2.1.8": {
         "dependencies": {
           "System.Memory": "4.5.3"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.core.dll": {
-            "assemblyVersion": "2.0.4.976",
-            "fileVersion": "2.0.4.976"
+            "assemblyVersion": "2.1.8.2226",
+            "fileVersion": "2.1.8.2226"
           }
         }
       },
@@ -131,14 +133,14 @@
           }
         }
       },
-      "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+      "SQLitePCLRaw.provider.dynamic_cdecl/2.1.8": {
         "dependencies": {
-          "SQLitePCLRaw.core": "2.0.4"
+          "SQLitePCLRaw.core": "2.1.8"
         },
         "runtime": {
           "lib/netstandard2.0/SQLitePCLRaw.provider.dynamic_cdecl.dll": {
-            "assemblyVersion": "2.0.4.976",
-            "fileVersion": "2.0.4.976"
+            "assemblyVersion": "2.1.8.2226",
+            "fileVersion": "2.1.8.2226"
           }
         }
       },
@@ -180,12 +182,12 @@
       "path": "sqlitepclraw.bundle_green/2.0.4",
       "hashPath": "sqlitepclraw.bundle_green.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.core/2.0.4": {
+    "SQLitePCLRaw.core/2.1.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-4XlDZpDAsboMD6qZQcz9AaKblKDUTVHF+8f3lvbP7QjoqSRr2Xc0Lm34IK2pjRIYnyFLhI3yOJ5YWfOiCid2yg==",
-      "path": "sqlitepclraw.core/2.0.4",
-      "hashPath": "sqlitepclraw.core.2.0.4.nupkg.sha512"
+      "sha512": "sha512-jre/gajSA2Bz3kzYD8DxMpJehAtxY5/V2UE/OR0v48zY122hJOXBvGumV+/zEMg1l0lEVFJfJCpkJGQp7GBwRw==",
+      "path": "sqlitepclraw.core/2.1.8",
+      "hashPath": "sqlitepclraw.core.2.1.8.nupkg.sha512"
     },
     "SQLitePCLRaw.lib.e_sqlite3/2.0.4": {
       "type": "package",
@@ -194,12 +196,12 @@
       "path": "sqlitepclraw.lib.e_sqlite3/2.0.4",
       "hashPath": "sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512"
     },
-    "SQLitePCLRaw.provider.dynamic_cdecl/2.0.4": {
+    "SQLitePCLRaw.provider.dynamic_cdecl/2.1.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-AY6+vv/4ji1mCkLrS6HP/88rHT9YFKRyg3LUj8RyIk6imJMUFdQDiP8rK8gq0a/0FbqspLjK1t7rtKcr7FXRYA==",
-      "path": "sqlitepclraw.provider.dynamic_cdecl/2.0.4",
-      "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512"
+      "sha512": "sha512-DscdpnZe8KUHBIFOCbJf5p1+CaCfhLZHKwVtZXrGI+wR5Kbg+jLjBJG+9ZB4S2KGdYAwrKYWC/riDUgEqCPCAA==",
+      "path": "sqlitepclraw.provider.dynamic_cdecl/2.1.8",
+      "hashPath": "sqlitepclraw.provider.dynamic_cdecl.2.1.8.nupkg.sha512"
     },
     "System.Memory/4.5.3": {
       "type": "package",

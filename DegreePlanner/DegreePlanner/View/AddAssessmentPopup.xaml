@@ -7,35 +7,28 @@
              x:DataType="ViewModel:AddEditCourseViewModel">
 
 
-    <VerticalStackLayout>
+    <VerticalStackLayout Margin="20">
 
         <Label Text="Add Assessment" FontSize="26" FontAttributes="Bold" Margin="20" VerticalOptions="Center" HorizontalOptions="Center" />
 
-        <HorizontalStackLayout>
-            <Label Text="Name"/>
-            <Entry Text="{Binding NewAssessment.Name}" />
-        </HorizontalStackLayout>
+        <Label Text="Name" FontSize="12"/>
 
-        <HorizontalStackLayout>
-            <Picker x:Name="TypePicker" Title="Type" SelectedItem="{Binding NewAssessment.Type}">
-                <Picker.ItemsSource>
-                    <x:Array Type="{x:Type x:String}">
-                        <x:String>OA</x:String>
-                        <x:String>PA</x:String>
-                    </x:Array>
-                </Picker.ItemsSource>
-            </Picker>
-        </HorizontalStackLayout>
+        <Entry Text="{Binding NewAssessment.Name}" BackgroundColor="Beige" FontSize="12"/>
 
-        <HorizontalStackLayout>
-            <Label Text="Start Date"/>
-            <DatePicker x:Name="StartDatePicker" Date="{Binding NewAssessment.Start}" />
-        </HorizontalStackLayout>
+        <Picker x:Name="TypePicker" Title="Type" SelectedItem="{Binding NewAssessment.Type}" BackgroundColor="Beige" FontSize="12">
+            <Picker.ItemsSource>
+                <x:Array Type="{x:Type x:String}">
+                    <x:String>OA</x:String>
+                    <x:String>PA</x:String>
+                </x:Array>
+            </Picker.ItemsSource>
+        </Picker>
 
-        <HorizontalStackLayout>
-            <Label Text="End Date"/>
-            <DatePicker x:Name="EndDatePicker" Date="{Binding NewAssessment.End}" />
-        </HorizontalStackLayout>
+        <Label Text="Start Date" FontSize="12"/>
+        <DatePicker x:Name="StartDatePicker" Date="{Binding NewAssessment.Start}" BackgroundColor="Beige" FontSize="12"/>
+
+        <Label Text="End Date"/>
+        <DatePicker x:Name="EndDatePicker" Date="{Binding NewAssessment.End}" BackgroundColor="Beige" FontSize="12"/>
 
         <Button Text="Save" Command="{Binding AddAssessmentCommand}"/>
 

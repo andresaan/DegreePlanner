@@ -15,7 +15,7 @@ namespace DegreePlanner
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
-                //.UseLocalNotification()
+                .UseLocalNotification()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

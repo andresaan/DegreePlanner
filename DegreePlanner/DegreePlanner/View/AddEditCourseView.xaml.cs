@@ -44,8 +44,6 @@ public partial class AddEditCourseView : ContentPage
         {
             _viewModel.Course = Course;
 
-            PageTitle.Text = Course != null ? "Edit Course" : "Add Course";
-
             _viewModel.SetCourseToEdit();
         }
     }

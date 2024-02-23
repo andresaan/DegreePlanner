@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "x9gDdxa0PRnva5gKA8e3F5TvkWPyEOWuTMQDdDEPJlDandEB8lMiFdUVxuTtwY+IB+SHgv9izAhmnhKc4WST8g==",
+  "dgSpecHash": "cCi2bBR4ne/u+zoT77FkYNIXzHKQW4MkK9vZRvivr89fBux/jNI4Hn9Uag6dZUa4mhpdSezb4eySm8931V/KFg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\DegreePlanner\\DegreePlanner.csproj",
+  "projectFilePath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971\\DegreePlanner\\DegreePlanner\\DegreePlanner.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aasan\\.nuget\\packages\\communitytoolkit.maui\\2.0.0\\communitytoolkit.maui.2.0.0.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\communitytoolkit.maui.core\\2.0.0\\communitytoolkit.maui.core.2.0.0.nupkg.sha512",
@@ -26,10 +26,10 @@
     "C:\\Users\\aasan\\.nuget\\packages\\plugin.localnotification\\10.1.8\\plugin.localnotification.10.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
-    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",
+    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.core\\2.1.8\\sqlitepclraw.core.2.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3\\2.0.4\\sqlitepclraw.lib.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.lib.e_sqlite3.android\\2.0.4\\sqlitepclraw.lib.e_sqlite3.android.2.0.4.nupkg.sha512",
-    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.0.4\\sqlitepclraw.provider.dynamic_cdecl.2.0.4.nupkg.sha512",
+    "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.provider.dynamic_cdecl\\2.1.8\\sqlitepclraw.provider.dynamic_cdecl.2.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.provider.e_sqlite3\\2.0.4\\sqlitepclraw.provider.e_sqlite3.2.0.4.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\system.buffers\\4.4.0\\system.buffers.4.4.0.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.0\\system.diagnostics.diagnosticsource.6.0.0.nupkg.sha512",

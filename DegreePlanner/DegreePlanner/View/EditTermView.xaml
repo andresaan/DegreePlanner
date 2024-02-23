@@ -2,7 +2,7 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="DegreePlanner.View.EditTermView"
-             Title="EditTermView"
+             Title="Term"
              xmlns:ViewModel="clr-namespace:DegreePlanner.ViewModel"
              x:DataType="ViewModel:EditTermViewModel"
              xmlns:Data="clr-namespace:Data;assembly=Data">
@@ -10,42 +10,38 @@
     <ScrollView>
         <VerticalStackLayout>
 
-            <Label x:Name="PageTitle" Text="Edit Term" FontSize="26" FontAttributes="Bold" Margin="20" VerticalOptions="Center" HorizontalOptions="Center" />
-
-            <Border Padding="20" Margin="20">
+            <Border Padding="10" Margin="5">
                 <VerticalStackLayout>
 
-                    <Label Text="Edit Term" FontSize="18" FontAttributes="Bold"/>
+                    <Label Text="Edit Term Information" FontSize="18" FontAttributes="Bold"/>
 
-                    <Grid ColumnDefinitions=".25*,.75*" Margin="10">
-                        <Label Grid.Column="0" Text="Term Name" HorizontalOptions="Start" VerticalOptions="Center"/>
-                        <Entry Grid.Column="1" Text="{Binding Term.Name}" HorizontalOptions="Fill" VerticalOptions="Center"/>
+                    <Grid ColumnDefinitions=".3*,.7*" Margin="10">
+                        <Label Grid.Column="0" Text="Term Name" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                        <Entry Grid.Column="1" Text="{Binding Term.Name}" HorizontalOptions="Fill" VerticalOptions="Center"  FontSize="12" BackgroundColor="Beige"/>
                     </Grid>
 
-                    <Grid ColumnDefinitions=".10*,.22*,.10*,.22*,.16*,.16*" Margin="10">
-                        <Label Grid.Column="0"  Text="Start Date" VerticalOptions="Center"/>
-                        <DatePicker Grid.Column="1" x:Name="StartDatePicker" Date="{Binding Term.Start}" HorizontalOptions="Fill" VerticalOptions="Center"/>
-                        <Label Grid.Column="2" Text="End Date" VerticalOptions="Center"/>
-                        <DatePicker Grid.Column="3" x:Name="EndDatePicker" Date="{Binding Term.End}" HorizontalOptions="CenterAndExpand"/>
-                        <Label Grid.Column="4" Text="Total CUs" HorizontalOptions="Center" VerticalOptions="Center"/>
-                        <Entry Grid.Column="5" Text="{Binding Term.TotalCus}" HorizontalOptions="CenterAndExpand" VerticalOptions="Center"/>
+                    <Grid ColumnDefinitions=".18*,.30*,.18*,.30*" Margin="10">
+                        <Label Grid.Column="0"  Text="Start Date" VerticalOptions="Center"  FontSize="12"/>
+                        <DatePicker Grid.Column="1" x:Name="StartDatePicker" Date="{Binding Term.Start}" HorizontalOptions="Fill" VerticalOptions="Center"  FontSize="12"/>
+                        <Label Grid.Column="2" Text="End Date" VerticalOptions="Center"  FontSize="12"/>
+                        <DatePicker Grid.Column="3" x:Name="EndDatePicker" Date="{Binding Term.End}" HorizontalOptions="CenterAndExpand"  FontSize="12"/>
+                       
                     </Grid>
 
                 </VerticalStackLayout>
             </Border>
 
-            <Border Margin="20" Padding="20">
+            <Border Margin="5" Padding="10">
 
                 <VerticalStackLayout Spacing="15">
 
                     <Label Text="Courses" FontSize="18" FontAttributes="Bold"/>
 
-                    <Grid VerticalOptions="Center" HorizontalOptions="Fill" ColumnDefinitions=".1*,.1*,.3*,.25*,.2*,.05*">
-                        <Label Grid.Column="0" Text="Status" HorizontalOptions="Center"/>
-                        <Label Grid.Column="1" Text="CUs" HorizontalOptions="Center"/>
-                        <Label Grid.Column="2" Text="Course Name" HorizontalOptions="Center"/>
-                        <Label Grid.Column="3" Text="Assessment(s)" HorizontalOptions="Center"/>
-                        <Label Grid.Column="4" Text="Start/End Dates" HorizontalOptions="Center"/>
+                    <Grid VerticalOptions="Center" HorizontalOptions="Fill" ColumnDefinitions=".2*,.35*,.15*,.25*,.05*">
+                        <Label Grid.Column="0" Text="Status" HorizontalOptions="Start" FontSize="12"/>
+                        <Label Grid.Column="1" Text="Course Name" HorizontalOptions="Start" FontSize="12"/>
+                        <Label Grid.Column="2" Text="Test(s)" HorizontalOptions="Start" FontSize="12"/>
+                        <Label Grid.Column="3" Text="Start/End" HorizontalOptions="Start" FontSize="12"/>
                     </Grid>
 
                     <CollectionView ItemsSource="{Binding Courses}" SelectionMode="None">
@@ -53,25 +49,24 @@
                             <DataTemplate x:DataType="Data:Course">
                                 <Border Padding="0">
 
-                                    <Grid VerticalOptions="Center" HorizontalOptions="Fill" ColumnDefinitions=".1*,.1*,.3*,.25*,.2*,.05*" BackgroundColor="#ECECEC">
-                                        <Label Grid.Column="0" Text="{Binding Status}" HorizontalOptions="Center" VerticalOptions="Center"/>
-                                        <Label Grid.Column="1" Text="{Binding TotalCus}" HorizontalOptions="Center" VerticalOptions="Center"/>
-                                        <Label Grid.Column="2" Text="{Binding Name}" HorizontalOptions="Center" VerticalOptions="Center"/>
+                                    <Grid VerticalOptions="Center" HorizontalOptions="Fill" ColumnDefinitions=".2*,.35*,.15*,.25*,.05*" BackgroundColor="#ECECEC">
+                                        <Label Grid.Column="0" Text="{Binding Status}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
+                                        <Label Grid.Column="1" Text="{Binding Name}" HorizontalOptions="Start" VerticalOptions="Center" FontSize="12"/>
 
-                                            <CollectionView ItemsSource="{Binding Assessments}" Grid.Column="3" ItemsLayout="HorizontalList">
+                                            <CollectionView ItemsSource="{Binding Assessments}" Grid.Column="2" ItemsLayout="HorizontalList">
                                                 <CollectionView.ItemTemplate>
                                                     <DataTemplate x:DataType="Data:Assessment">
-                                                        <Label Text="{Binding Type}"/>
+                                                    <Label Text="{Binding Type}" FontSize="12"/>
                                                     </DataTemplate>
                                                 </CollectionView.ItemTemplate>
                                             </CollectionView>
 
-                                        <HorizontalStackLayout Grid.Column="4" HorizontalOptions="Center" VerticalOptions="Center">
-                                            <Label Text="{Binding Start, StringFormat='{0:MM/dd} -'}"/>
-                                            <Label Text="{Binding End, StringFormat=' {0:MM/dd}'}"/>
+                                        <HorizontalStackLayout Grid.Column="3" HorizontalOptions="Start" VerticalOptions="Center">
+                                            <Label Text="{Binding Start, StringFormat='{0:MM/dd} -'}" FontSize="12"/>
+                                            <Label Text="{Binding End, StringFormat=' {0:MM/dd}'}" FontSize="12"/>
                                         </HorizontalStackLayout>
 
-                                        <Button Text="Edit" Grid.Column="5" Padding="0" Margin="0" FontSize="10" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" BackgroundColor="#ECECEC" BorderColor="#ECECEC"
+                                        <Button Text="Edit" Grid.Column="4" Padding="0" Margin="0" FontSize="10" HorizontalOptions="Center" VerticalOptions="Center" TextColor="Black" BackgroundColor="#ECECEC" BorderColor="#ECECEC"
                                                 Command="{Binding Source={RelativeSource AncestorType={x:Type ViewModel:EditTermViewModel}}, Path=EditCourseCommand}" CommandParameter="{Binding .}"/>
 
                                     </Grid>
