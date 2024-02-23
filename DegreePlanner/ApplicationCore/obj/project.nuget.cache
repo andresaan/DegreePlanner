@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "QDvaB+8YHNixuTJZuTaQ/+wZQ662cJLwa/EcgLQqSvIrjVuH47j25Mkv++XS9dXo+iT6Z6601A4gXtIdlw9c1Q==",
+  "dgSpecHash": "cHwre6xj3Vhvlxg7z+G/rI/4wGJVKWJtjQpEps/MEQw7wZGtp2sLhggt7ciu4brVZtUXpHQd7mp/sJ77jLLBig==",
   "success": true,
   "projectFilePath": "C:\\Users\\aasan\\OneDrive\\Desktop\\DEV\\c971-mobile-application-development-using-c-sharp\\DegreePlanner\\ApplicationCore\\ApplicationCore.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\aasan\\.nuget\\packages\\plugin.localnotification\\10.1.8\\plugin.localnotification.10.1.8.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlite-net-pcl\\1.8.116\\sqlite-net-pcl.1.8.116.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.bundle_green\\2.0.4\\sqlitepclraw.bundle_green.2.0.4.nupkg.sha512",
     "C:\\Users\\aasan\\.nuget\\packages\\sqlitepclraw.core\\2.0.4\\sqlitepclraw.core.2.0.4.nupkg.sha512",

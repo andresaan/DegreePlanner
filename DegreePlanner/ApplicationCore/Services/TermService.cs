@@ -1,6 +1,8 @@
 ﻿using Data;
 using ApplicationCore.DAL;
 using ApplicationCore.Interfaces;
+using Plugin.LocalNotification;
+using System.Text;
 
 namespace ApplicationCore.Services
 {
@@ -17,7 +19,7 @@ namespace ApplicationCore.Services
         {
             _db.AddItem(item);
         }
-        
+
         public void RemoveById<T>(int id)
         {
             _db.DeleteItemById<T>(id);
@@ -91,5 +93,7 @@ namespace ApplicationCore.Services
         {
             _db.UpdateItem(item);
         }
+
+        
     }
 }

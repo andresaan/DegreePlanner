@@ -30,21 +30,21 @@
     <AppXManifest Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2024-02-23T03:02:04.891</Modified>
+      <Modified>2024-02-23T04:15:16.469</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2024-02-23T03:02:03.369</Modified>
+      <Modified>2024-02-23T04:15:14.595</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\DegreePlanner.runtimeconfig.json">
       <PackagePath>DegreePlanner.runtimeconfig.json</PackagePath>
-      <Modified>2024-02-22T01:21:32.565</Modified>
+      <Modified>2024-02-23T03:47:19.749</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\DegreePlanner.dll">
       <PackagePath>DegreePlanner.dll</PackagePath>
-      <Modified>2024-02-23T03:02:01.443</Modified>
+      <Modified>2024-02-23T04:15:11.948</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\Data\bin\Debug\net6.0-windows10.0.19041.0\Data.dll">
       <PackagePath>Data.dll</PackagePath>
@@ -52,7 +52,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>DegreePlanner.exe</PackagePath>
-      <Modified>2024-02-23T03:02:01.479</Modified>
+      <Modified>2024-02-23T04:15:11.989</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\.nuget\packages\microsoft.netcore.app.runtime.win-x64\6.0.14\runtimes\win-x64\lib\net6.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -1070,6 +1070,10 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.Net.dll</PackagePath>
       <Modified>2022-09-07T21:54:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\aasan\.nuget\packages\plugin.localnotification\10.1.8\lib\net6.0\Plugin.LocalNotification.dll">
+      <PackagePath>Plugin.LocalNotification.dll</PackagePath>
+      <Modified>2023-06-29T12:14:18.000</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\.nuget\packages\sqlite-net-pcl\1.8.116\lib\netstandard2.0\SQLite-net.dll">
       <PackagePath>SQLite-net.dll</PackagePath>
       <Modified>2021-09-02T21:04:32.000</Modified>
@@ -1104,11 +1108,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\ApplicationCore\bin\Debug\net6.0\ApplicationCore.dll">
       <PackagePath>ApplicationCore.dll</PackagePath>
-      <Modified>2024-02-23T03:01:48.885</Modified>
+      <Modified>2024-02-23T04:15:00.932</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\DegreePlanner.deps.json">
       <PackagePath>DegreePlanner.deps.json</PackagePath>
-      <Modified>2024-02-23T03:02:04.456</Modified>
+      <Modified>2024-02-23T04:15:15.892</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\aasan\.nuget\packages\microsoft.maui.controls.ref.win\6.0.552\ref\net6.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

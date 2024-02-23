@@ -2,6 +2,19 @@
   "version": 3,
   "targets": {
     "net6.0": {
+      "Plugin.LocalNotification/10.1.8": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Plugin.LocalNotification.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "sqlite-net-pcl/1.8.116": {
         "type": "package",
         "dependencies": {
@@ -146,6 +159,38 @@
     }
   },
   "libraries": {
+    "Plugin.LocalNotification/10.1.8": {
+      "sha512": "LiZpaY0iA4aFhRY/Brkm//D8BQKrd/GtGfhx2lg7jQKlXb0lzlvWx/sax28D4ufJgkOGpiQqGKjZ8CMo8yuTiA==",
+      "type": "package",
+      "path": "plugin.localnotification/10.1.8",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "icon.png",
+        "lib/monoandroid12.0/Plugin.LocalNotification.dll",
+        "lib/monoandroid12.0/Plugin.LocalNotification.xml",
+        "lib/net6.0-android31.0/Plugin.LocalNotification.dll",
+        "lib/net6.0-android31.0/Plugin.LocalNotification.xml",
+        "lib/net6.0-ios16.1/Plugin.LocalNotification.dll",
+        "lib/net6.0-ios16.1/Plugin.LocalNotification.xml",
+        "lib/net6.0/Plugin.LocalNotification.dll",
+        "lib/net6.0/Plugin.LocalNotification.xml",
+        "lib/net7.0-android33.0/Plugin.LocalNotification.aar",
+        "lib/net7.0-android33.0/Plugin.LocalNotification.dll",
+        "lib/net7.0-android33.0/Plugin.LocalNotification.xml",
+        "lib/net7.0-ios16.1/Plugin.LocalNotification.dll",
+        "lib/net7.0-ios16.1/Plugin.LocalNotification.xml",
+        "lib/net7.0/Plugin.LocalNotification.dll",
+        "lib/net7.0/Plugin.LocalNotification.xml",
+        "lib/netstandard2.0/Plugin.LocalNotification.dll",
+        "lib/netstandard2.0/Plugin.LocalNotification.xml",
+        "lib/xamarinios10/Plugin.LocalNotification.dll",
+        "lib/xamarinios10/Plugin.LocalNotification.xml",
+        "plugin.localnotification.10.1.8.nupkg.sha512",
+        "plugin.localnotification.nuspec"
+      ]
+    },
     "sqlite-net-pcl/1.8.116": {
       "sha512": "W0NuwAOVVAR9LP4eZwNBIrim1p3EN7t8iNfSHXEhtzKAd4YyItekoQ8NyWYs4faVSrN2KZr/P5u4hycCjKKexg==",
       "type": "package",
@@ -263,7 +308,8 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Data >= 1.0.0"
+      "Data >= 1.0.0",
+      "Plugin.LocalNotification >= 10.1.8"
     ]
   },
   "packageFolders": {
@@ -314,6 +360,12 @@
     "frameworks": {
       "net6.0": {
         "targetAlias": "net6.0",
+        "dependencies": {
+          "Plugin.LocalNotification": {
+            "target": "Package",
+            "version": "[10.1.8, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",

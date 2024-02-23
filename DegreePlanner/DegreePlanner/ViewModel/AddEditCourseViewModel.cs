@@ -9,6 +9,7 @@ namespace DegreePlanner.ViewModel
     public partial class AddEditCourseViewModel : ObservableObject
     {
         private ITermService _termService;
+        private ISetNotificationService _notificationService;
 
         public int TermId { get; set; }
 
@@ -22,14 +23,24 @@ namespace DegreePlanner.ViewModel
         public Assessment newAssessment = new Assessment();
 
         [ObservableProperty]
+        public string notificationTitle;
+
+        [ObservableProperty]
+        public string notificationDescription;
+
+        [ObservableProperty]
+        public DateTime notificationDate;
+
+        [ObservableProperty]
         public ObservableCollection<Assessment> assessments = new ObservableCollection<Assessment>();
 
 
-        public AddEditCourseViewModel(ITermService termService)
+        public AddEditCourseViewModel(ITermService termService, ISetNotificationService notificationService)
         {
             _termService = termService;
 
             SaveCourseInformationCommand = new AsyncRelayCommand(SaveCourseInformation);
+            _notificationService = notificationService;
         }
 
         public IAsyncRelayCommand SaveCourseInformationCommand { get; }
@@ -78,6 +89,35 @@ namespace DegreePlanner.ViewModel
             _termService.CascadeDeleteCourse(courseId);
 
             await GoBack();
+        }
+
+        [RelayCommand]
+        public async Task SetReminder()
+        {
+            await _notificationService.SetNotification(NotificationTitle, NotificationDescription, NotificationDate);
+
+            NotificationTitle = "";
+            NotificationDescription = "";
+            NotificationDate = DateTime.Now;
+
+            await Application.Current.MainPage.DisplayAlert("Reminder", "Reminder successfully set to device", "Ok");
+        }
+
+        [RelayCommand]
+        public async Task ShareNotes()
+        {
+            if (!string.IsNullOrEmpty(Course.Notes))
+            {
+                await Share.Default.RequestAsync(new ShareTextRequest
+                {
+                    Text = Course.Notes,
+                    Title = "Share Text"
+                });
+            }
+            else
+            {
+                await Application.Current.MainPage.DisplayAlert("Share Request", "Notes cannot be empty", "Ok");
+            }
         }
 
         public async Task GoBack()

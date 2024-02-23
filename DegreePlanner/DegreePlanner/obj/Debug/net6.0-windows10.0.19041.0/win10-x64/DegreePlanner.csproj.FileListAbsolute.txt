@@ -371,3 +371,4 @@ C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-
 C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\obj\Debug\net6.0-windows10.0.19041.0\win10-x64\ProjectArchitectures.txt
 C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ApplicationCore.dll
 C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\ApplicationCore.pdb
+C:\Users\aasan\OneDrive\Desktop\DEV\c971-mobile-application-development-using-c-sharp\DegreePlanner\DegreePlanner\bin\Debug\net6.0-windows10.0.19041.0\win10-x64\Plugin.LocalNotification.dll

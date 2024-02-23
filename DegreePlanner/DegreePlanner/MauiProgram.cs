@@ -3,6 +3,7 @@ using DegreePlanner.ViewModel;
 using CommunityToolkit.Maui;
 using ApplicationCore.Interfaces;
 using ApplicationCore.Services;
+using Plugin.LocalNotification;
 
 namespace DegreePlanner
 {
@@ -14,6 +15,7 @@ namespace DegreePlanner
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                //.UseLocalNotification()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -30,6 +32,7 @@ namespace DegreePlanner
             builder.Services.AddTransient<EditTermViewModel>();
 
             builder.Services.AddTransient<ITermService, TermService>();
+            builder.Services.AddTransient<ISetNotificationService, SetNotificationService>();
 
             builder.Services.AddTransient<AddTermPopup>();
 

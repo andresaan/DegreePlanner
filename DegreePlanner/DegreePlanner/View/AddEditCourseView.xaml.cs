@@ -24,6 +24,9 @@ public partial class AddEditCourseView : ContentPage
 
         EndDatePicker.MinimumDate = DateTime.Now;
         EndDatePicker.MaximumDate = DateTime.MaxValue;
+
+        ReminderDatePicker.MinimumDate = DateTime.Now;
+        ReminderDatePicker.MaximumDate = DateTime.MaxValue;
     }
 
     protected override void OnAppearing()
