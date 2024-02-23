@@ -57,3 +57,9 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.DegreePlanView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\DegreePlanView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\DegreePlanView.xaml
+
+[C:/Users/aasan/OneDrive/Desktop/DEV/c971-mobile-application-development-using-c-sharp/DegreePlanner/DegreePlanner/View/EditTermView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = DegreePlanner.View.EditTermView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\EditTermView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\EditTermView.xaml

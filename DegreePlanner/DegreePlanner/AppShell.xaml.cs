@@ -9,6 +9,8 @@ namespace DegreePlanner
             InitializeComponent();
 
             Routing.RegisterRoute(nameof(AddEditCourseView), typeof(AddEditCourseView));
+
+            Routing.RegisterRoute(nameof(EditTermView), typeof(EditTermView));
         }
     }
 }

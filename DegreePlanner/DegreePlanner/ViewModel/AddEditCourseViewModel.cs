@@ -11,52 +11,18 @@ namespace DegreePlanner.ViewModel
         private ITermService _termService;
 
         public int TermId { get; set; }
-        public int CourseId { get; set; }
 
         [ObservableProperty]
-        public string courseName;
+        public Course course = new Course();
 
         [ObservableProperty]
-        public DateTime courseStart;
+        public CourseInstructor courseInstructor = new CourseInstructor();
 
         [ObservableProperty]
-        public DateTime courseEnd;
-
-        [ObservableProperty]
-        public string status;
-
-        [ObservableProperty]
-        public string totalCus;
-
-        [ObservableProperty]
-        public string courseNotes = "";
-
-        [ObservableProperty]
-        public string instructorName;
-
-        [ObservableProperty]
-        public string instructorPhone;
-
-        [ObservableProperty]
-        public string instructorEmail;
-
-        [ObservableProperty]
-        public string assessmentName;
-
-        [ObservableProperty]
-        public string assessmentType;
-
-        [ObservableProperty]
-        public DateTime assessmentStart;
-
-        [ObservableProperty]
-        public DateTime assessmentEnd;
+        public Assessment newAssessment = new Assessment();
 
         [ObservableProperty]
         public ObservableCollection<Assessment> assessments = new ObservableCollection<Assessment>();
-
-        [ObservableProperty]
-        public ObservableCollection<CourseInstructor> instructors;
 
 
         public AddEditCourseViewModel(ITermService termService)
@@ -64,48 +30,22 @@ namespace DegreePlanner.ViewModel
             _termService = termService;
 
             SaveCourseInformationCommand = new AsyncRelayCommand(SaveCourseInformation);
-
-            LoadInstructors();
         }
 
         public IAsyncRelayCommand SaveCourseInformationCommand { get; }
 
         async Task SaveCourseInformation()
         {
-            // add new course flow: Validate - Instructor - Course - Assessment
+            Course.TermId = TermId != 0 ? TermId : Course.TermId;
 
-            // Course object - TermId, InstructorId, Name, Start, End, CUs, Status
-            // TermId - DegreePlan query param
-            // InsId - Quick duplicate check, add new, grab id
+            var errorMessage = _termService.SaveCourseInformation(CourseInstructor, Course, Assessments.ToList());
 
-            // Instructor obj - Name, Phone, Email
-            // Only add new if InsId is needed
-
-            // Assessment obj - CourseId, Type, Start, End
-            // CourseId - get after adding course object
-
-            var instructor = new CourseInstructor()
+            if (errorMessage == null)
             {
-                InstructorName = InstructorName,
-                Phone = InstructorPhone,
-                Email = InstructorEmail
-            };
+                await GoBack();
+            }
 
-            var course = new Course()
-            {
-                TermId = TermId,
-                InstructorId = instructor.InstructorId,
-                Name = CourseName,
-                Start = CourseStart,
-                End = CourseEnd,
-                TotalCus = Convert.ToInt32(TotalCus),
-                Status = Status,
-                Notes = CourseNotes
-            };
-
-            _termService.SaveCourseInformation(instructor, course, Assessments.ToList());
-
-            await GoBack();
+            await Application.Current.MainPage.DisplayAlert("Error", errorMessage, "Ok");
         }
 
         [RelayCommand]
@@ -113,27 +53,42 @@ namespace DegreePlanner.ViewModel
         {
             Assessments.Add(new Assessment()
             {
-                Name = AssessmentName,
-                Type = AssessmentType,
-                Start = AssessmentStart,
-                End = AssessmentEnd
+                Name = NewAssessment.Name,
+                Type = NewAssessment.Type,
+                Start = NewAssessment.Start,
+                End = NewAssessment.End
             });
         }
-        
+
         [RelayCommand]
         public void DeleteAssessment(Assessment assessment)
         {
+            if (assessment.AssessmentId > 0)
+            {
+                _termService.RemoveById<Assessment>(assessment.AssessmentId);
+            }
+
             Assessments.Remove(assessment);
         }
 
-        private void LoadInstructors()
+        [RelayCommand]
+        public async Task DeleteCourse(int courseId)
         {
-            Instructors = new ObservableCollection<CourseInstructor>(_termService.GetAllInstructors());
+            var c = courseId;
+            _termService.CascadeDeleteCourse(courseId);
+
+            await GoBack();
         }
 
-        async Task GoBack()
+        public async Task GoBack()
         {
             await Shell.Current.GoToAsync("..");
+        }
+
+        public void SetCourseToEdit()
+        {
+            CourseInstructor = Course.CourseInstructor;
+            Assessments = new ObservableCollection<Assessment>(Course.Assessments);
         }
     }
 }

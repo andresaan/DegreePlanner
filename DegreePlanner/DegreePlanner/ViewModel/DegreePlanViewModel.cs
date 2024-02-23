@@ -27,13 +27,6 @@ namespace DegreePlanner.ViewModel
         public DegreePlanViewModel(ITermService termService)
         {
             _termService = termService;
-
-        }
-
-        [RelayCommand]
-        async Task AddCourse(int termId)
-        {
-            await Shell.Current.GoToAsync($"{nameof(AddEditCourseView)}?TermId={termId}");
         }
 
         [RelayCommand]
@@ -50,11 +43,20 @@ namespace DegreePlanner.ViewModel
             LoadTerms();
         }
 
+        [RelayCommand]
+        public async Task EditTerm(Term term)
+        {
+            var parameters = new Dictionary<string, object>()
+            {
+                {"Term", term }
+            };
+
+            await Shell.Current.GoToAsync(nameof(EditTermView), parameters);
+        }
+
         public void LoadTerms()
         {
-            
             Terms = new ObservableCollection<Term>(_termService.GetAllTerms());
-
             //Add a formatting call using model to format OA and PA and other things as they come up
         }
     }

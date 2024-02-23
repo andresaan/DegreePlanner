@@ -26,6 +26,9 @@ namespace DegreePlanner
             builder.Services.AddTransient<AddEditCourseView>();
             builder.Services.AddTransient<AddEditCourseViewModel>();
 
+            builder.Services.AddTransient<EditTermView>();
+            builder.Services.AddTransient<EditTermViewModel>();
+
             builder.Services.AddTransient<ITermService, TermService>();
 
             builder.Services.AddTransient<AddTermPopup>();

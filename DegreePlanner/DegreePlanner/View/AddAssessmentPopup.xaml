@@ -13,11 +13,11 @@
 
         <HorizontalStackLayout>
             <Label Text="Name"/>
-            <Entry Text="{Binding AssessmentName}" />
+            <Entry Text="{Binding NewAssessment.Name}" />
         </HorizontalStackLayout>
 
         <HorizontalStackLayout>
-            <Picker x:Name="TypePicker" Title="Type" SelectedItem="{Binding AssessmentType}">
+            <Picker x:Name="TypePicker" Title="Type" SelectedItem="{Binding NewAssessment.Type}">
                 <Picker.ItemsSource>
                     <x:Array Type="{x:Type x:String}">
                         <x:String>OA</x:String>
@@ -29,12 +29,12 @@
 
         <HorizontalStackLayout>
             <Label Text="Start Date"/>
-            <DatePicker x:Name="StartDatePicker" Date="{Binding AssessmentStart}" />
+            <DatePicker x:Name="StartDatePicker" Date="{Binding NewAssessment.Start}" />
         </HorizontalStackLayout>
 
         <HorizontalStackLayout>
             <Label Text="End Date"/>
-            <DatePicker x:Name="EndDatePicker" Date="{Binding AssessmentEnd}" />
+            <DatePicker x:Name="EndDatePicker" Date="{Binding NewAssessment.End}" />
         </HorizontalStackLayout>
 
         <Button Text="Save" Command="{Binding AddAssessmentCommand}"/>

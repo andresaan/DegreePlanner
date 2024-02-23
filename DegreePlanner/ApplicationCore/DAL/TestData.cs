@@ -9,7 +9,7 @@ namespace ApplicationCore.DAL
         {
             new Term()
             {
-                Name = "test",
+                Name = "Spring Term",
                 Start = DateTime.Now,
                 End = DateTime.Now,
                 TotalCus = 10
@@ -22,7 +22,7 @@ namespace ApplicationCore.DAL
             {
                 TermId = 1,
                 InstructorId = 1,
-                Name = "test",
+                Name = "First Course",
                 Start = DateTime.Now,
                 End = DateTime.Now,
                 TotalCus = 8,
@@ -36,7 +36,7 @@ namespace ApplicationCore.DAL
             {
                 CourseId = 1,
                 Name = "Mobile App",
-                Type = "Objective Assessment",
+                Type = "PA",
                 Start = DateTime.Now,
                 End = DateTime.Now
             }

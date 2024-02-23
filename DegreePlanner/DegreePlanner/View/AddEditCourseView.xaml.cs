@@ -1,16 +1,17 @@
 using CommunityToolkit.Maui.Views;
 using DegreePlanner.ViewModel;
+using Data;
 
 namespace DegreePlanner.View;
 
-[QueryProperty(nameof(CourseId), nameof(CourseId))]
+[QueryProperty(nameof(Course), nameof(Course))]
 [QueryProperty(nameof(TermId), nameof(TermId))]
 public partial class AddEditCourseView : ContentPage
 {
     private AddEditCourseViewModel _viewModel;
 
     public string TermId { get; set; }
-    public string CourseId { get; set; } = "-1";
+    public Course Course { get; set; } 
 
     public AddEditCourseView(AddEditCourseViewModel viewModel)
     {
@@ -36,13 +37,13 @@ public partial class AddEditCourseView : ContentPage
             _viewModel.TermId = parsedTermId;
         }
 
-        canParse = int.TryParse(CourseId, out var parsedCourseId);
-
-        if (canParse)
+        if (Course != null)
         {
-            _viewModel.CourseId = parsedCourseId;
+            _viewModel.Course = Course;
 
-            PageTitle.Text = parsedCourseId > 0 ? "Edit Course" : "Add Course";
+            PageTitle.Text = Course != null ? "Edit Course" : "Add Course";
+
+            _viewModel.SetCourseToEdit();
         }
     }
 
