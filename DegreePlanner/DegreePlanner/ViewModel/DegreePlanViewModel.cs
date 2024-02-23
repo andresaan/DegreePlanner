@@ -27,6 +27,8 @@ namespace DegreePlanner.ViewModel
         public DegreePlanViewModel(ITermService termService)
         {
             _termService = termService;
+
+            _termService.InitializeDb();
         }
 
         [RelayCommand]
